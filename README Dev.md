@@ -7,12 +7,12 @@
 
 Імпорти мають бути відносні (не абсолютні через @/).
 
-📁 Структура проєкту bash Копіювати Редагувати src/ ├── features/ │ ├── auth/ # Вхід, реєстрація, модалки │ │ ├──
-components/ │ │ ├── styles/ │ │ └── services/ │ ├── catalogue/ # Каталог товарів │ ├── sale/ # Додавання/продаж товарів
-│ ├── profile/ # Особистий кабінет │ └── common/ # Загальні елементи UI (header, footer) │ ├── header/ │ │ ├──
-components/ │ │ └── styles/ │ └── footer/ ├── components/ # Універсальні, переюзабельні компоненти ├── contexts/ # React
-контексти ├── hooks/ # Кастомні React-хуки ├── assets/ # Зображення, шрифти, відео │ └── img/ ├── styles/ # Глобальні
-SCSS: змінні, міксіни ├── App.tsx ├── main.tsx
+📁 Структура проєкту bash src/ ├── features/ │ ├── auth/ # Вхід, реєстрація, модалки │ │ ├── components/ │ │ ├── styles/
+│ │ └── services/ │ ├── catalogue/ # Каталог товарів │ ├── sale/ # Додавання/продаж товарів │ ├── profile/ # Особистий
+кабінет │ └── common/ # Загальні елементи UI (header, footer) │ ├── header/ │ │ ├── components/ │ │ └── styles/ │ └──
+footer/ ├── components/ # Універсальні, переюзабельні компоненти ├── contexts/ # React контексти ├── hooks/ # Кастомні
+React-хуки ├── assets/ # Зображення, шрифти, відео │ └── img/ ├── styles/ # Глобальні SCSS: змінні, міксіни ├── App.tsx
+├── main.tsx
 
 📋 Іменування Компоненти: PascalCase — SignIn.jsx, SearchBar.jsx
 
