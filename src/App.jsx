@@ -1,14 +1,14 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from '../header/Header';
 import Catalogue from '../catalogue/Catalogue';
-import Sale from '../sale/Sale';
-import Profile from '../profile/Profile';
-import Footer from '../footer/Footer';
+import Sale from './features/sale/components/Sale';
+import Profile from './features/profile/components/Profile';
+import Footer from './features/common/footer/Footer';
 
-import { AuthProvider } from '../../contexts/AuthContext';
-import PersonalData from '../profile/personal-data/PersonalData';
-import Orders from '../profile/orders/Orders';
-import Cart from '../profile/cart/Cart';
+import { AuthProvider } from './contexts/AuthContext';
+import PersonalData from './features/profile/components/PersonalData';
+import Orders from './features/profile/components/Orders';
+import Cart from './components/profile/cart/Cart';
 
 const App = () => {
   return (
