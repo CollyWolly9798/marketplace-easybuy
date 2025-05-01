@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './favoritebrands.scss';
+import '../styles/Favoritebrands.scss';
 
 const CarouselSection = () => {
   const images = [

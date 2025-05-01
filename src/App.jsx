@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Header from '../header/Header';
-import Catalogue from '../catalogue/Catalogue';
+import Header from './features/common/header/Header';
+import Catalogue from './features/catalogue/components/Catalogue';
 import Sale from './features/sale/components/Sale';
 import Profile from './features/profile/components/Profile';
 import Footer from './features/common/footer/Footer';
@@ -8,7 +8,7 @@ import Footer from './features/common/footer/Footer';
 import { AuthProvider } from './contexts/AuthContext';
 import PersonalData from './features/profile/components/PersonalData';
 import Orders from './features/profile/components/Orders';
-import Cart from './components/profile/cart/Cart';
+import Cart from './features/profile/components/Cart';
 
 const App = () => {
   return (

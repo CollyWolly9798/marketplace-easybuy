@@ -1,18 +1,18 @@
-import React from 'react';
-import Banner from './banner/ControlledCarousel';
-import CarouselSection from './Favorite Brands/CarouselSection';
-import Recommendations from './recommendations/Recommendations';
-import UaBrands from './Ukrainian Brands/UaBrands';
-
-import './Catalogue.scss';
+import Recommendations from '../components/Recommendations';
+import UaBrands from '../components/UkrainianBrands';
+import CarouselSection from './FavoriteBrands';
+import '../styles/Catalogue.scss';
+import Banner from './ControlledCarousel';
 
 const Catalogue = () => {
-    return ( <div className="catalogue-container">
-      <Banner/>
-      <CarouselSection/>
+  return (
+    <div className='catalogue-container'>
+      <Banner />
+      <CarouselSection />
       <UaBrands />
-      <Recommendations/>
-    </div> );
-}
- 
+      <Recommendations />
+    </div>
+  );
+};
+
 export default Catalogue;

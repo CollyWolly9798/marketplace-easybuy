@@ -1,5 +1,5 @@
 import React from 'react';
-import fingerPrint from '../../../img/icons/fingerprint.svg';
+import fingerPrint from '../../../../assets/img/icons/fingerprint.svg';
 
 const FiltersButton = () => {
   return (

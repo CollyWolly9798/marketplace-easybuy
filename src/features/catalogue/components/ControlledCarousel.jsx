@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './slider.scss';
-import banner from '../../../img/banner.jpg';
+import '../styles/Slider.scss';
+import banner from '../../../assets/img/banner.jpg';
 // import { Carousel.Caption, Carousel.Item } from 'react-bootstrap';
 
 const ControlledCarousel = () => {
