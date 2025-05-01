@@ -1,0 +1,18 @@
+@import './reset';
+@import './variables';
+@import './mixins';
+
+/* Глобальні стилі */
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff9f6;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0;
+  // margin-left: 120px;
+  // margin-right: 120px;
+}
