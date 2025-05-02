@@ -1,14 +1,10 @@
 import '../styles/Ukrainianbrands.scss';
+import levis from '../../../assets/img/brands/levis-brand.png';
+import zara from '../../../assets/img/brands/zara-brand.png';
+import banner from '../../../assets/img/banner.jpg';
 
 const UkrainianBrands = () => {
-  const images = [
-    'img/ae9c02c09b415d23336f58f5ac829e28.png',
-    'https://s3-alpha-sig.figma.com/img/494f/15ad/adb02242e9f3095fbdcf0c4150383dc7?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NBE-YI-n-cT2U6CTNnsWD745ZQvpIfT7RkS91Eb~pwl2X5Bg2J7CSXgBW8ZjzK9E~z8E~6azVGSNKuVUO38S7y1K6FiinRAnues81iRFkbjv~u-bFb0mDXeMnkPPW0A~oPQplyJFsDuyXDdEjPqebt9ZCXYo-EjIW-FWYYlO98-f-FpHi3bObHS5dusdraemYwoh5hZOAVM8J7TirA7n9MxYzoZStg2X5BtIzUz-oASP7Yn-eeTE3awmc1OPNpKSSUAEjkLHvGmKZ9bsreZ0jfRpMJf-4smBPLOSnC7dy-qHTBAZ1womBEITe~1JKiUXm3dcoqALFhlaJGC3bBlapA__',
-    'https://s3-alpha-sig.figma.com/img/065a/7ede/47757800f9feb6243e93c347d56c81e2?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jjbKANY8Q73DzZrtVremHawF72egNI3PPFK~bJ54LrM7YPC2ZkMr32NRP1BIt4i9ZBYLUrAzFz1xDcfYg2fj6ONX-LS18z7bwbJHkJ5jmlY2xLD9kbQ95Ov4o2XOo2xEl~X~HlFZfzRp7zJoy2YjyKtBwEtu2x6DKCGKA4MuUGmqpc2UDZmWarYXFSX61yyAMqOCNi-Cwzcf4ZyNsIiUznZojFLc39mcexBXaFNxTFCI~5TOafMzizqzJWTI4~nuYGczGduc071MQAnP6TocrrnmfD6X7ISeAvXv73tuGimGwDet3OORHfEQ8BRhBnUQY1VnJIOysYhvPfdKWH6AdQ__',
-    'img/image 59.png',
-    'img/image 45.png',
-    'img/image 44.png',
-  ];
+  const images = [levis, zara, levis, zara, levis, zara];
 
   const moveSlide = (carouselId, direction) => {
     const carousel = document.getElementById(carouselId);
@@ -63,7 +59,7 @@ const UkrainianBrands = () => {
         </button>
       </div>
       <div className='banner'>
-        <img src='img/Frame 4075622 (1).png' alt='Christmas Sale Banner' />
+        <img src={banner} alt='Christmas Sale Banner' />
       </div>
     </div>
   );

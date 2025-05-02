@@ -1,6 +1,5 @@
-import React from 'react';
 import './FavouritesButton.scss';
-import iconLike from '../../../../assets/img/icons/favorite.svg';
+import iconLike from '../../../assets/img/icons/favorite.svg';
 
 const FavouritesButton = () => {
   return (

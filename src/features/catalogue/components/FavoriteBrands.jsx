@@ -1,14 +1,10 @@
 import '../styles/Favoritebrands.scss';
+import zara from '../../../assets/img/brands/zara-brand.png';
+import levis from '../../../assets/img/brands/levis-brand.png';
+import banner from '../../../assets/img/banner.jpg';
 
 const CarouselSection = () => {
-  const images = [
-    'img/zara-logo-1 1.png',
-    'img/levis-1 1.png',
-    'img/zara-logo-1 1.png',
-    'img/levis-1 1.png',
-    'img/zara-logo-1 1.png',
-    'img/tommy-hilfiger-3 1.png',
-  ];
+  const images = [zara, levis, zara, levis, zara, levis, zara];
 
   const prevSlide = carouselId => {
     const carousel = document.getElementById(carouselId);
@@ -77,7 +73,7 @@ const CarouselSection = () => {
         </button>
       </div>
       <div className='banner'>
-        <img src='img/Frame 4075620 (1).png' alt='Sale Banner' />
+        <img src={banner} alt='Sale Banner' />
       </div>
     </div>
   );

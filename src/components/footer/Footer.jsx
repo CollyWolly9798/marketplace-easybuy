@@ -1,10 +1,10 @@
 import './Footer.scss';
-import logo from '../../../assets/img/logo/logo.png';
-import facebook from '../../../assets/img/icons/facebook.svg';
-import instagram from '../../../assets/img/icons/instagram.svg';
-import telegram from '../../../assets/img/icons/telegram.svg';
-import youtube from '../../../assets/img/icons/youtube.svg';
-import copyright from '../../../assets/img/icons/copyright.svg';
+import logo from '../../assets/img/logo/logo.png';
+import facebook from '../../assets/img/icons/facebook.svg';
+import instagram from '../../assets/img/icons/instagram.svg';
+import telegram from '../../assets/img/icons/telegram.svg';
+import youtube from '../../assets/img/icons/youtube.svg';
+import copyright from '../../assets/img/icons/copyright.svg';
 
 const Footer = () => {
   return (
