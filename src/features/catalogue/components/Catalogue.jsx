@@ -1,14 +1,16 @@
 import Recommendations from '../components/Recommendations';
 import UaBrands from '../components/UkrainianBrands';
-import CarouselSection from './FavoriteBrands';
+// import CarouselSection from './FavoriteBrandsBAD';
 import '../styles/Catalogue.scss';
-import Banner from './ControlledCarousel';
+import Promo from '../components/Promo.jsx';
+import FavoriteBrands from './FavoriteBrands.jsx';
 
 const Catalogue = () => {
   return (
-    <div className='catalogue-container'>
-      <Banner />
-      <CarouselSection />
+    <div className='container'>
+      <Promo />
+      <FavoriteBrands />
+      {/* <CarouselSection /> */}
       <UaBrands />
       <Recommendations />
     </div>

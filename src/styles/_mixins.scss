@@ -1,0 +1,15 @@
+// Colors
+$color-white-1: #ffffff;
+$color-black-1: #000000;
+$color-pink-1: #e8639e;
+$color-pink-2: #fd1353;
+// Button mixin
+@mixin circle-button($size, $position, $image) {
+  position: absolute;
+  bottom: 72px;
+  border-radius: 50%;
+  width: $size;
+  height: $size;
+  background-image: url($image);
+  #{$position}: 55px;
+}
