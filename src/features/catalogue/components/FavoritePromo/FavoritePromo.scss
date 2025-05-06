@@ -1,0 +1,43 @@
+@import '../../../../assets/styles/variables';
+@import '../../../../assets/styles/mixins';
+
+.promo-banner {
+  background-color: $color-white-2;
+  margin-bottom: 72px;
+  border-radius: 24px;
+  box-shadow: $shadow;
+
+  .promo-content {
+    @include flex-center-space-between;
+    flex-wrap: wrap;
+    padding: 77px 143px;
+
+    .promo-text {
+      display: flex;
+      flex-direction: column;
+      gap: 77px;
+
+      .promo-discount {
+        font-family: 'Zen Dots', sans-serif;
+        font-size: 160px;
+        line-height: 1.37;
+        text-align: center;
+        background: $gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .brand-logo {
+        max-width: 396px;
+        height: auto;
+      }
+    }
+
+    .promo-image img {
+      max-width: 809px;
+      max-height: 439px;
+      object-fit: contain;
+    }
+  }
+}
