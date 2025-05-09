@@ -5,7 +5,7 @@ import Sale from './features/sale/components/Sale';
 import Profile from './features/profile/components/Profile';
 import Footer from './components/footer/Footer';
 
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider } from './contexts/auth-context/AuthContext';
 import PersonalData from './features/profile/components/PersonalData';
 import Orders from './features/profile/components/Orders';
 import Cart from './features/profile/components/Cart';

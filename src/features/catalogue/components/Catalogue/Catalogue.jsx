@@ -1,19 +1,16 @@
-import Recommendations from '../Recommendations';
-import UaBrands from '../UkrainianBrands';
+import Promo from '../Promo/Promo.js';
+import FavoriteBrandsNew from '../FavoriteBrands/FavoriteBrands.jsx';
+import UkrainianBrands from '../UkrainianBrands/UkrainianBrands.jsx';
+import RecommendationsNew from '../RecommendationsNew/RecommendationsNew.jsx';
 import './Catalogue.scss';
-import Promo from '../Promo.js';
-import FavoriteBrands from '../FavoriteBrands.jsx';
-import FavoriteBrandsNew from '../FavoriteBrandsNew/FavoriteBrandsNew.jsx';
 
 const Catalogue = () => {
   return (
     <div className='container'>
       <Promo />
       <FavoriteBrandsNew />
-      {/* <FavoriteBrands /> */}
-      {/* <CarouselSection /> */}
-      <UaBrands />
-      <Recommendations />
+      <UkrainianBrands />
+      <RecommendationsNew />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import SignUp from './SignUp';
-import SignIn from './SignIn';
+import SignUp from '../sign-up/SignUp';
+import SignIn from '../sign-in/SignIn';
 
-import '../styles/AuthModal.scss';
+import './AuthModal.scss';
 
 const AuthModal = ({ isShown, toggleIsShown }) => {
   function close() {
