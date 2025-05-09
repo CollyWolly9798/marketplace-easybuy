@@ -1,8 +1,8 @@
 import SmallCarousel from '../../../../components/small-carousel/SmallCarousel.js';
 import zara from '../../../../assets/img/brands/zara-brand.png';
 import levis from '../../../../assets/img/brands/levis-brand.png';
-import './FavoriteBrandsNew.scss';
 import FavoritePromo from '../FavoritePromo/FavoritePromo.jsx';
+import './FavoriteBrands.scss';
 
 const images = [zara, levis, zara, levis, zara, levis, zara, levis, zara, levis];
 

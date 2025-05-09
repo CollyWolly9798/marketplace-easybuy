@@ -1,7 +1,7 @@
-import '../styles/SignIn.scss';
+import './SignIn.scss';
 import axios from 'axios';
 import { useState, useContext } from 'react';
-import { AuthContext } from '../../../contexts/AuthContext';
+import { AuthContext } from '../../../contexts/auth-context/AuthContext';
 
 const SignIn = ({ closeFunc }) => {
   // выводить куда то
