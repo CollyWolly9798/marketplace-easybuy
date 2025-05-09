@@ -1,12 +1,14 @@
 @import './reset';
 @import './variables';
 @import './mixins';
+@import './fonts.scss';
 
 /* Глобальні стилі */
 body {
   font-family: 'Inter', sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
-  background-color: #f8f9fb;
+  background-color: $background-page-color;
 }
 
 .container {
