@@ -1,7 +1,7 @@
-import LargeCarousel from '../../../components/large-carousel/LargeCarousel';
-import { Slide } from '../../../types/Slider';
-import '../styles/Promo.scss';
-import banner from '../../../assets/img/banner.jpg';
+import LargeCarousel from '../../../../components/large-carousel/LargeCarousel';
+import { Slide } from '../../../../types/Slider';
+import './Promo.scss';
+import banner from '../../../../assets/img/banner.jpg';
 
 const slides: Slide[] = [
   {

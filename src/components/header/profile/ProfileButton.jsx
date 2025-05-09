@@ -1,8 +1,8 @@
 import './ProfileButton.scss';
 import { useState, useContext } from 'react';
-import { AuthContext } from '../../../contexts/AuthContext';
+import { AuthContext } from '../../../contexts/auth-context/AuthContext';
 import { Link } from 'react-router-dom';
-import AuthModal from '../../../features/auth/components/AuthModal';
+import AuthModal from '../../../features/auth/auth-modal/AuthModal';
 
 const ProfileButton = () => {
   const { isAuth } = useContext(AuthContext);

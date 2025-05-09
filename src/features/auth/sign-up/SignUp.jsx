@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState, useContext } from 'react';
-import { AuthContext } from '../../../contexts/AuthContext';
+import { AuthContext } from '../../../contexts/auth-context/AuthContext';
 
 import axious from 'axios';
-import '../styles/SignUp.scss';
+import './SignUp.scss';
 
 const SignUp = ({ closeFunc }) => {
   const [error, setError] = useState(null);
