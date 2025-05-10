@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+@mixin flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 // Button mixin
 @mixin circle-button($size, $position, $image) {
   position: absolute;

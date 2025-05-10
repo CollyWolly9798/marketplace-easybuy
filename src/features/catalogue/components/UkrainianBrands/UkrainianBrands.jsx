@@ -10,7 +10,7 @@ const images = [uabrand1, uabrand2, uabrand3, uabrand4, uabrand1, uabrand2, uabr
 
 export default function UkrainianBrands() {
   return (
-    <section className='container'>
+    <section className='section-container'>
       <div className='section-wrapper'>
         <h2 className='section-logo'>Ukrainian Brands</h2>
         <a className='section-link' href='#'>

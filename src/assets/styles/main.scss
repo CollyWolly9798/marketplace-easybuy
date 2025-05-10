@@ -5,7 +5,7 @@
 
 /* Глобальні стилі */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: $font-inter;
   font-weight: 400;
   overflow-x: hidden;
   background-color: $background-page-color;
@@ -14,7 +14,10 @@ body {
 .container {
   max-width: 1680px;
   margin: 0 auto;
-  padding: 0;
-  // margin-left: 120px;
-  // margin-right: 120px;
+  // padding-top: 56px;
+  padding-bottom: 40px;
+}
+.section-container {
+  padding-top: 36px;
+  padding-bottom: 36px;
 }

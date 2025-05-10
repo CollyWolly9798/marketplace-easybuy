@@ -1,3 +1,8 @@
+// Fonts
+$font-inter: 'Inter', sans-serif;
+$font-dm: 'DM Sans', sans-serif;
+$font-zen: 'Zen Dots', cursive;
+
 // Colors
 $color-white-1: #ffffff;
 $color-white-2: #fff5ee;
@@ -12,7 +17,16 @@ $color-blue-2: #003366;
 $color-blue-3: #003366;
 $color-blue-4: #1f487e;
 $color-blue-5: #5a7dab;
+$color-blue-6: #0a3f83;
+$color-blue-7: #5aa1ff;
+$color-orange-1: #ff7400;
+$color-orange-2: #df4300;
+
 $background-page-color: #f8f9fb;
+
 // Shadow
 $shadow: 0 6px 12px rgba(0, 0, 0, 0.08), 0 16px 32px rgba(0, 0, 0, 0.06);
-$gradient: linear-gradient(180deg, #ff7400 0%, #df4300 100%);
+
+// Gradient
+$gradient-orange: linear-gradient(180deg, $color-orange-1 0%, $color-orange-2 100%);
+$gradient-blue: linear-gradient(180deg, $color-blue-6 0%, $color-blue-7 100%);
