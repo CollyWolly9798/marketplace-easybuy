@@ -1,5 +1,5 @@
 import ProductCard from '../ProductCard/ProductCard.jsx';
-import './RecommendationsNew.scss';
+import './Recommendations.scss';
 import cardImg from '../../../../assets/img/woman-rec.png';
 export default function RecommendationsNew() {
   const products = [
@@ -41,7 +41,7 @@ export default function RecommendationsNew() {
     },
   ];
   return (
-    <section className='container'>
+    <section className='section-container'>
       <div className='section-wrapper'>
         <h2 className='section-logo'>Recommendations</h2>
         <a className='section-link' href='#'>

@@ -16,7 +16,7 @@ const LargeCarousel: React.FC<LargeCarouselProps> = ({ slides }) => {
   };
 
   return (
-    <div className='container'>
+    <div>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         {slides.map(slide => (
           <Carousel.Item key={slide.id}>

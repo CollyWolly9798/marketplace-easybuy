@@ -8,7 +8,7 @@ const images = [zara, levis, zara, levis, zara, levis, zara, levis, zara, levis]
 
 export default function FavoriteBrandsNew() {
   return (
-    <section className='container'>
+    <section className='section-container'>
       <div className='section-wrapper'>
         <h2 className='section-logo'>Favorite brands</h2>
         <a className='section-link' href='#'>

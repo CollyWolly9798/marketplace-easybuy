@@ -1,14 +1,13 @@
 import Promo from '../Promo/Promo.js';
-import FavoriteBrandsNew from '../FavoriteBrands/FavoriteBrands.jsx';
+import FavoriteBrands from '../FavoriteBrands/FavoriteBrands.jsx';
 import UkrainianBrands from '../UkrainianBrands/UkrainianBrands.jsx';
-import RecommendationsNew from '../RecommendationsNew/RecommendationsNew.jsx';
-import './Catalogue.scss';
+import RecommendationsNew from '../Recommendations/Recommendations.jsx';
 
 const Catalogue = () => {
   return (
     <div className='container'>
       <Promo />
-      <FavoriteBrandsNew />
+      <FavoriteBrands />
       <UkrainianBrands />
       <RecommendationsNew />
     </div>
